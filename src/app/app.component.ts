@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
+import { single } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -13,5 +14,6 @@ import { HeaderComponent } from './components/header/header.component';
   styles: [],
 })
 export class AppComponent {
-  title = 'angular-ecomm';
+  // title = 'angular-ecomm';
+  
 }
